@@ -1,1 +1,34 @@
 Characters
+
+//CREATE TABLE [dbo].[bai_hat] (
+//  [id] int  IDENTITY(1,1) NOT NULL,
+//  [ten_bai_hat] nvarchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [ten_tac_gia] nvarchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [thoi_luong] int  NULL,
+//  [ngay_san_xuat] date  NULL,
+//  [gia] float(53)  NULL,
+//  [ca_si_id] int  NULL,
+//  [phat_hanh_dia] bit  NULL,
+//  [ngay_ra_mat] date  NULL
+//)
+//GO
+
+//CREATE TABLE [dbo].[ca_si] (
+//  [id] int  IDENTITY(1,1) NOT NULL,
+//  [ten_ca_si] nvarchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [que_quan] nvarchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [tuoi] int  NULL,
+//  [cong_ty] nvarchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [sdt] varchar(20) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+//  [gioi_tinh] bit  NULL
+//)
+//GO
+
+//    Viết API hiển thị danh sách bài hát gồm: ID, Tên bài hát, Tên tác giả, Thời lượng, Ngày sản xuất, Giá, Tên ca sĩ, Quê Quán, Ngày ra mắt sử dụng method GET
+//    Viết API hiển thị danh sách bảng bài hát gồm: ID, Tên bài hát, Tên tác giả, Thời lượng, Ngày sản xuất, Giá, Tên ca sĩ, Quê Quán, Ngày ra mắt phân trang 5 phần tử/trang sử dụng method GET
+//    Viết API add 1 đối tượng vào DB sử dụng method POST
+//    Viết API xóa 1 đối tượng vào DB theo ID sử dụng method DELETE
+//    Viết API tìm kiếm danh sách bảng bài hát theo tên ca sĩ và khoảng giá  sử dụng method GET
+//    Sử dụng Stream thực hiện 1 số yêu cầu sau:
+//    Tìm bài hát có giá cao nhất và thời lượng dài nhất từ một danh sách các bài hát.
+//    Viết một phương thức sử dụng Stream API để nhóm các bài hát theo ca sĩ và tính tổng thời lượng của từng ca sĩ.
